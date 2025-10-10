@@ -4,14 +4,12 @@ import Shopping from "./Shopping"
 import Todo from "./Todo"
 
 function App() {
-  
-
   return (
     <Router basename="/FULL-STACK_23BCS11262_KRG-3A">
-      <Routes >
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/FULL-STACK_23BCS11262_KRG-3A/shop" element={<Shopping />} />
-        <Route path="/FULL-STACK_23BCS11262_KRG-3A/todo" element={<Todo />} />
+        <Route path="/shop" element={<Shopping />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </Router>
   )
