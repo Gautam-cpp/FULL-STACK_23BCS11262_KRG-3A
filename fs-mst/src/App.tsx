@@ -7,8 +7,8 @@ function App() {
   
 
   return (
-    <Router>
-      <Routes>
+    <Router basename="/FULL-STACK_23BCS11262_KRG-3A">
+      <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shopping />} />
         <Route path="/todo" element={<Todo />} />
